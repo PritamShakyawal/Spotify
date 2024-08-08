@@ -1,0 +1,108 @@
+
+.premium-page {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #143442;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .premium-header {
+    margin-bottom: 2rem;
+  }
+  
+  .premium-header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .premium-header p {
+    font-size: 1.25rem;
+    color: #b3b3b3;
+  }
+  
+  .premium-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .premium-offers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .plan {
+    background-color: #3e0430;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 100vw;
+    max-width: 400px;
+  }
+  
+  .plan h3 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .plan p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .btn-signup {
+    display: inline-block;
+    background-color: #1db954;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-signup:hover {
+    background-color: #1ed760;
+  }
+  
+  .premium-footer {
+    margin-top: 2rem;
+  }
+  
+  .premium-footer p {
+    color: #b3b3b3;
+  }
+  
+
+  /* Ensure that the container takes full height of the screen */
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Sidebar takes full height and is fixed */
+.sidebar-container {
+    flex: 0 0 250px; /* Adjust width as needed */
+    overflow: hidden;
+}
+
+/* Content container is scrollable */
+.content-container {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem; /* Adjust padding as needed */
+}
+
+/* Player is fixed at the bottom */
+.player-container {
+    flex: 0 0 60px; /* Adjust height as needed */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black; /* Or your desired color */
+}
