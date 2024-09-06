@@ -10,13 +10,13 @@ import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
 
 
-<<<<<<< HEAD
-export const url = 'https://spotify-backend-2ycj.onrender.com'
+
+
 // export const url = 'http://spotify-eta-drab.vercel.app'
 =======
 export const url = 'https://spotify-backend-2ycj.onrender.com'
 
->>>>>>> c874120aa0a53cf7aa4db9c84379c4dca9fe1ded
+
 
 const App = ()=> {
   return (
